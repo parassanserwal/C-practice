@@ -1,0 +1,46 @@
+#include<stdio.h>
+ float square(float a, float b);
+ float rectangle(float a, float b);
+ float circle(float a, float b);
+ int main()
+ {
+    float a;
+    float b;
+    int c;
+ printf("Enter 1 for square|| Enter 2 for rectangle|| Enter 3 for circle");
+ scanf("%d",&c);
+ if(c=='1'){
+ printf("Enter 1st number");
+ scanf("%f",&a);
+ printf("Enter the second number");
+ scanf("%f",&b);
+ float square(float a, float b);
+ }
+else if(c=='2'){
+printf("Enter 1st number");
+ scanf("%f",&a);
+ printf("Enter the second number");
+ scanf("%f",&b);
+ float rectangle(float a, float b);
+ }
+else if(c=='3'){
+printf("Enter 1st number");
+ scanf("%f",&a);
+ printf("Enter the second number");
+ scanf("%f",&b);
+ float circle(float a, float b);
+ }
+ else{
+    printf("It Is Not Any Command");
+ }
+ return 0;
+ }
+ float square(float a, float b){
+    return (a*b);
+ }
+ float rectangle(float a, float b){
+    return (a*b);
+}
+ float circle(float a, float b){
+    return (3.14*a*b);
+}
